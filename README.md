@@ -10,3 +10,5 @@
 * [Top Trends of Graph Machine Learning in 2020](https://towardsdatascience.com/top-trends-of-graph-machine-learning-in-2020-1194175351a3)
 * [An Introduction to Knowledge Graphs](http://ai.stanford.edu/blog/introduction-to-knowledge-graphs/)
 * [Enterprise Knowledge Graph Trends for 2021](https://dmccreary.medium.com/enterprise-knowledge-graph-trends-for-2021-201cbd7ad532)
+* [A Survey on Knowledge Graphs: Representation, Acquisition and Applications](https://arxiv.org/pdf/2002.00388.pdf)
+* [THE FUTURE OF KNOWLEDGE GRAPHS](https://www.longfinance.net/media/documents/PDF_Text_To_Intelligence_v.1.0_2021.04.12.pdf)
