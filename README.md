@@ -2,15 +2,15 @@
 
 *AI and graph technologies will be the two big drivers that will impact real-time decision support, search, chatbots, NLP, automated customer services, recommendation systems, product management, digital marketing, rules engines, goal setting, workflows, integration, automated schema mapping, data discovery, anomaly detection, security threat analytics, master data management, and next-best-action prediction.*
 
-* [Stanford Knowledge Graph Course](https://web.stanford.edu/class/cs520/)
-* Data Structure/Database -- tableau dataset -> graph dataset/Graph Database
+* [Stanford Knowledge Graph Course](https://web.stanford.edu/class/cs520/): 21Dec20 - 21Dec31
+* Data Structure/Database -- tableau dataset -> graph dataset/Graph Database: 
 * [Traditional Graph Analyasis](https://www.analyticsvidhya.com/blog/2018/04/introduction-to-graph-theory-network-analysis-python-codes/)
   * Concept and application
   * Code Implementation 
     * Model: data discovery, anomaly detection, rule engines
     * Visualization 
-* DL and Graph Analysis:
- * [Graph Embedding](https://dmccreary.medium.com/understanding-graph-embeddings-79342921a97f) 
+* [Graph Machine Learning](https://towardsdatascience.com/top-trends-of-graph-machine-learning-in-2020-1194175351a3):
+  * [Graph Embedding](https://dmccreary.medium.com/understanding-graph-embeddings-79342921a97f) 
 * More to explore: real time recommendation system
 
 ### Reference
@@ -25,3 +25,4 @@
 * [A Survey on Knowledge Graphs: Representation, Acquisition and Applications](https://arxiv.org/pdf/2002.00388.pdf)
 * [THE FUTURE OF KNOWLEDGE GRAPHS](https://www.longfinance.net/media/documents/PDF_Text_To_Intelligence_v.1.0_2021.04.12.pdf)
 * [Chinese Dataset](http://openkg.cn/dataset)
+* [Making Sense of NoSQL](https://www.manning.com/books/making-sense-of-nosql)
