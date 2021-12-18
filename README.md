@@ -3,15 +3,15 @@
 *AI and graph technologies will be the two big drivers that will impact real-time decision support, search, chatbots, NLP, automated customer services, recommendation systems, product management, digital marketing, rules engines, goal setting, workflows, integration, automated schema mapping, data discovery, anomaly detection, security threat analytics, master data management, and next-best-action prediction.*
 
 * [Stanford Knowledge Graph Course](https://web.stanford.edu/class/cs520/): 21Dec20 - 21Dec31
-* Data Structure/Database -- tableau dataset -> graph dataset/Graph Database: 
-* [Traditional Graph Analyasis](https://www.analyticsvidhya.com/blog/2018/04/introduction-to-graph-theory-network-analysis-python-codes/)
+* Data Structure/Database -- tableau dataset -> graph dataset/Graph Database: 22Feb8 - 22Feb14
+* [Traditional Graph Analyasis](https://www.analyticsvidhya.com/blog/2018/04/introduction-to-graph-theory-network-analysis-python-codes/): 22Feb15 - 22Mar15
   * Concept and application
   * Code Implementation 
     * Model: data discovery, anomaly detection, rule engines
     * Visualization 
-* [Graph Machine Learning](https://towardsdatascience.com/top-trends-of-graph-machine-learning-in-2020-1194175351a3):
+* [Graph Machine Learning](https://towardsdatascience.com/top-trends-of-graph-machine-learning-in-2020-1194175351a3): 22Mar16 - 22Mar30
   * [Graph Embedding](https://dmccreary.medium.com/understanding-graph-embeddings-79342921a97f) 
-* More to explore: real time recommendation system
+* More to explore: real time recommendation system: 22Mar31 - 22Apr8
 
 ### Reference
 * [Graph Analytics: Types, Tools, and Top 10 Use cases](https://research.aimultiple.com/graph-analytics/)
