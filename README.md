@@ -9,7 +9,8 @@
   * Code Implementation 
     * Model: data discovery, anomaly detection, rule engines
     * Visualization 
-* d
+* DL and Graph Analysis:
+ * [Graph Embedding](https://dmccreary.medium.com/understanding-graph-embeddings-79342921a97f) 
 * More to explore: real time recommendation system
 
 ### Reference
