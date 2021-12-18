@@ -12,3 +12,4 @@
 * [Enterprise Knowledge Graph Trends for 2021](https://dmccreary.medium.com/enterprise-knowledge-graph-trends-for-2021-201cbd7ad532)
 * [A Survey on Knowledge Graphs: Representation, Acquisition and Applications](https://arxiv.org/pdf/2002.00388.pdf)
 * [THE FUTURE OF KNOWLEDGE GRAPHS](https://www.longfinance.net/media/documents/PDF_Text_To_Intelligence_v.1.0_2021.04.12.pdf)
+* [Stanford Knowledge Graph Course](https://web.stanford.edu/class/cs520/)
