@@ -16,6 +16,8 @@
 ### Dataset
 * [Interesting Dataset for Graph Neural Network](https://medium.com/@khangphysix1997/interesting-dataset-for-graph-neural-network-7a6fc792786e)
 * [How To Get Started with Social Network Analysis](https://towardsdatascience.com/how-to-get-started-with-social-network-analysis-6d527685d374)
+* [Network datasets](https://kateto.net/2016/05/network-datasets/)
+* [Awesome Public Datasets as Neo4j Graph](https://www.kaggle.com/startupsci/awesome-datasets-graph?select=datasources.csv)
 
 ### Reference
 * [Graph Analytics: Types, Tools, and Top 10 Use cases](https://research.aimultiple.com/graph-analytics/)
