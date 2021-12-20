@@ -17,6 +17,7 @@
 * [Graph Analytics: Types, Tools, and Top 10 Use cases](https://research.aimultiple.com/graph-analytics/)
 * [Enterprise Knowledge Graph Trends for 2021](https://dmccreary.medium.com/enterprise-knowledge-graph-trends-for-2021-201cbd7ad532)
 * [Social Network Analysis: From Graph Theory to Applications with Python](https://towardsdatascience.com/social-network-analysis-from-theory-to-applications-with-python-d12e9a34c2c7)
+* [How To Get Started with Social Network Analysis](https://towardsdatascience.com/how-to-get-started-with-social-network-analysis-6d527685d374)
 * [Introduction to Graph Analytics](https://medium.com/analytics-vidhya/introduction-to-graph-analytics-796cbb3c9cd9)
 * [Recent trends in knowledge graphs: theory and practice](https://www.researchgate.net/publication/350955012_Recent_trends_in_knowledge_graphs_theory_and_practice)
 * [Knowledge Graphs in Industry](https://www.frontiersin.org/research-topics/16200/knowledge-graphs-in-industry)
