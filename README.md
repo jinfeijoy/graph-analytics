@@ -1,4 +1,4 @@
-### Paln
+### Plan
 
 *AI and graph technologies will be the two big drivers that will impact real-time decision support, search, chatbots, NLP, automated customer services, recommendation systems, product management, digital marketing, rules engines, goal setting, workflows, integration, automated schema mapping, data discovery, anomaly detection, security threat analytics, master data management, and next-best-action prediction.*
 
