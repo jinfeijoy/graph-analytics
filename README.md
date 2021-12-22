@@ -3,6 +3,7 @@
 *AI and graph technologies will be the two big drivers that will impact real-time decision support, search, chatbots, NLP, automated customer services, recommendation systems, product management, digital marketing, rules engines, goal setting, workflows, integration, automated schema mapping, data discovery, anomaly detection, security threat analytics, master data management, and next-best-action prediction.*
 
 * [Stanford Knowledge Graph Course](https://web.stanford.edu/class/cs520/): 21Dec20 - 21Dec31
+  * Data Model: RDF/Property Graph 
 * Data Structure/Database -- tableau dataset -> graph dataset/Graph Database: 22Feb8 - 22Feb14
 * [Traditional Graph Analyasis](https://www.analyticsvidhya.com/blog/2018/04/introduction-to-graph-theory-network-analysis-python-codes/): 22Feb15 - 22Mar15
   * Concept and application
