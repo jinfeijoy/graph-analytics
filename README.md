@@ -4,6 +4,7 @@
 
 * [Stanford Knowledge Graph Course](https://web.stanford.edu/class/cs520/): 21Dec20 - 21Dec31
   * Data Model: RDF/Property Graph 
+  * [Create Knowledge Graph from Data](https://web.stanford.edu/class/cs520/2020/notes/How_To_Create_A_Knowledge_Graph_From_Data.html)
 * Data Structure/Database -- tableau dataset -> graph dataset/Graph Database: 22Feb8 - 22Feb14
 * [Traditional Graph Analyasis](https://www.analyticsvidhya.com/blog/2018/04/introduction-to-graph-theory-network-analysis-python-codes/): 22Feb15 - 22Mar15
   * Concept and application
