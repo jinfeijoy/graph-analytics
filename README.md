@@ -7,6 +7,7 @@
   * [Create Knowledge Graph from Data](https://web.stanford.edu/class/cs520/2020/notes/How_To_Create_A_Knowledge_Graph_From_Data.html)
   * [How to Create a Knowledge Graph from Text](https://web.stanford.edu/class/cs520/2020/notes/How_To_Create_A_Knowledge_Graph_From_Text.html)
   * [What are some Knowledge Graph Inference Algorithms](https://web.stanford.edu/class/cs520/2020/notes/What_Are_Some_Inference_Algorithms.html)
+  * [How to Evolve a Knowledge Graph](https://web.stanford.edu/class/cs520/2020/notes/How_To_Evolve_A_Knowledge_Graph.html)
 * Data Structure/Database -- tableau dataset -> graph dataset/Graph Database: 22Feb8 - 22Feb14
 * [Traditional Graph Analyasis](https://www.analyticsvidhya.com/blog/2018/04/introduction-to-graph-theory-network-analysis-python-codes/): 22Feb15 - 22Mar15
   * Concept and application
