@@ -9,6 +9,7 @@
   * [What are some Knowledge Graph Inference Algorithms](https://web.stanford.edu/class/cs520/2020/notes/What_Are_Some_Inference_Algorithms.html)
   * [How to Evolve a Knowledge Graph](https://web.stanford.edu/class/cs520/2020/notes/How_To_Evolve_A_Knowledge_Graph.html)
   * [What are some High Value Use Cases of Knowledge Graphs](https://web.stanford.edu/class/cs520/2020/notes/What_Are_Some_High_Value_Use_Cases_Of_Knowledge_Graphs.html)
+  * [How do Knowledge Graphs Relate to AI?](https://web.stanford.edu/class/cs520/2020/notes/How_do_Knowledge_Graphs_Relate_To_AI.html)
 * Data Structure/Database -- tableau dataset -> graph dataset/Graph Database: 22Feb8 - 22Feb14
 * [Traditional Graph Analyasis](https://www.analyticsvidhya.com/blog/2018/04/introduction-to-graph-theory-network-analysis-python-codes/): 22Feb15 - 22Mar15
   * [Coursera Course](https://www.coursera.org/learn/big-data-graph-analytics/home/welcome)
