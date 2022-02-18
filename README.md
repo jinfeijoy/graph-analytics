@@ -27,6 +27,9 @@
 * [How To Get Started with Social Network Analysis](https://towardsdatascience.com/how-to-get-started-with-social-network-analysis-6d527685d374)
 * [Network datasets](https://kateto.net/2016/05/network-datasets/)
 * [Awesome Public Datasets as Neo4j Graph](https://www.kaggle.com/startupsci/awesome-datasets-graph?select=datasources.csv)
+* [Google Web Graph Page Rank](https://www.kaggle.com/pappukrjha/google-web-graph)
+* [ISWC 2020: COVID-19 Literature Knowledge Graph](https://www.kaggle.com/group16/covid19-literature-knowledge-graph)
+* [540 Images Of Popular Graph Theory Graphs](https://www.kaggle.com/thomaskonstantin/390-images-of-popular-graph-theory-graphs)
 
 ### Reference
 * [Graph Analytics: Types, Tools, and Top 10 Use cases](https://research.aimultiple.com/graph-analytics/)
