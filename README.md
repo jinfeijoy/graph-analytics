@@ -17,6 +17,7 @@
   * Concept and application
   * Code Implementation 
     * Model: data discovery, anomaly detection, rule engines
+    * Neo4j
     * Visualization 
 * [Graph Machine Learning](https://towardsdatascience.com/top-trends-of-graph-machine-learning-in-2020-1194175351a3): 22Mar16 - 22Mar30
   * [Graph Embedding](https://dmccreary.medium.com/understanding-graph-embeddings-79342921a97f) 
