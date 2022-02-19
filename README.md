@@ -45,3 +45,6 @@
 * [THE FUTURE OF KNOWLEDGE GRAPHS](https://www.longfinance.net/media/documents/PDF_Text_To_Intelligence_v.1.0_2021.04.12.pdf)
 * [Chinese Dataset](http://openkg.cn/dataset)
 * [Making Sense of NoSQL](https://www.manning.com/books/making-sense-of-nosql)
+* [Discovering entity connections insights using Network Analytics (Part 1)](https://towardsdatascience.com/discovering-entity-connections-insights-using-network-analytics-e321e8b21318)
+* [Discovering entity connections insights using Network Analytics (Part 2)](https://towardsdatascience.com/discovering-entity-connections-insights-using-network-analytics-part-2-d445751413b3)
+* [Machine Learning Tasks on Graphs](https://towardsdatascience.com/machine-learning-tasks-on-graphs-7bc8f175119a)
