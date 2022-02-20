@@ -25,7 +25,7 @@
     * Visualization 
 * [Graph Machine Learning](https://towardsdatascience.com/top-trends-of-graph-machine-learning-in-2020-1194175351a3): 22Mar21 - 22Apr3
   * [Graph Embedding](https://dmccreary.medium.com/understanding-graph-embeddings-79342921a97f) 
-  * Knowledge Graph
+  * Knowledge Graph: create a knowledge graph based on dataset (e.g. 人物关系)
 * More to explore: real time recommendation system: 22Apr4 - 22Apr17
 
 ### Dataset
