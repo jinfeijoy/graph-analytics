@@ -15,12 +15,16 @@
   * Find Task/Database Exploration: Feb18 - Feb19
 * [Traditional Graph Analyasis](https://www.analyticsvidhya.com/blog/2018/04/introduction-to-graph-theory-network-analysis-python-codes/): 22Feb21 - 22Mar15
   * Concept and application
+    * Community Detection: Fraud Detection (Feb21 - Feb27)
+    * Path Analytics: (Feb28 - Mar6)
+    * Visualization: (Mar7 - 13)
   * Code Implementation 
     * Model: data discovery, anomaly detection, rule engines
     * Neo4j
     * Visualization 
 * [Graph Machine Learning](https://towardsdatascience.com/top-trends-of-graph-machine-learning-in-2020-1194175351a3): 22Mar16 - 22Mar30
   * [Graph Embedding](https://dmccreary.medium.com/understanding-graph-embeddings-79342921a97f) 
+  * Knowledge Graph
 * More to explore: real time recommendation system: 22Mar31 - 22Apr8
 
 ### Dataset
