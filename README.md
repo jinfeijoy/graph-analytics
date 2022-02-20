@@ -13,7 +13,7 @@
 * Data Structure/Database -- tableau dataset -> graph dataset/Graph Database: 22Feb13 - 22Feb19
   * [Coursera Course](https://www.coursera.org/learn/big-data-graph-analytics/home/welcome): 22Feb13 - 22Feb17
   * Find Task/Database Exploration: Feb18 - Feb19
-* [Traditional Graph Analyasis](https://www.analyticsvidhya.com/blog/2018/04/introduction-to-graph-theory-network-analysis-python-codes/): 22Feb21 - 22Mar15
+* [Traditional Graph Analyasis](https://www.analyticsvidhya.com/blog/2018/04/introduction-to-graph-theory-network-analysis-python-codes/): 22Feb21 - 22Mar13
   * Concept and application
     * Community Detection: Fraud Detection (Feb21 - Feb27)
     * Path Analytics: (Feb28 - Mar6)
@@ -22,10 +22,10 @@
     * Model: data discovery, anomaly detection, rule engines
     * Neo4j
     * Visualization 
-* [Graph Machine Learning](https://towardsdatascience.com/top-trends-of-graph-machine-learning-in-2020-1194175351a3): 22Mar16 - 22Mar30
+* [Graph Machine Learning](https://towardsdatascience.com/top-trends-of-graph-machine-learning-in-2020-1194175351a3): 22Mar14 - 22Mar27
   * [Graph Embedding](https://dmccreary.medium.com/understanding-graph-embeddings-79342921a97f) 
   * Knowledge Graph
-* More to explore: real time recommendation system: 22Mar31 - 22Apr8
+* More to explore: real time recommendation system: 22Mar28 - 22Apr8
 
 ### Dataset
 * [Interesting Dataset for Graph Neural Network](https://medium.com/@khangphysix1997/interesting-dataset-for-graph-neural-network-7a6fc792786e)
