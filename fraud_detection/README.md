@@ -1,9 +1,9 @@
 # Fraud Detection
 
-* Dataset
-    * https://www.kaggle.com/kartik2112/fraud-detection/code?datasetId=817870&sortBy=voteCount&searchQuery=graph
-    * https://paperswithcode.com/dataset/yelpchi
-* Reference:
+## Dataset
+    * [Kaggle CC Fraud Detection](https://www.kaggle.com/kartik2112/fraud-detection/code?datasetId=817870&sortBy=voteCount&searchQuery=graph)
+    * [yelp fraud reviews]https://paperswithcode.com/dataset/yelpchi
+## Reference:
     * https://medium.com/@mygreatlearning/graph-machine-learning-for-credit-card-fraud-analysis-f63baf3211e5
     * https://towardsdatascience.com/fraud-detection-with-graph-analytics-2678e817b69e
     * https://isb-institute-of-data-science.medium.com/knowledge-graph-for-financial-services-c9cb7c3fe2b9
