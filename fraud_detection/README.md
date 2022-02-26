@@ -3,6 +3,8 @@
 ## Dataset
 
 * [Kaggle CC Fraud Detection](https://www.kaggle.com/kartik2112/fraud-detection/code?datasetId=817870&sortBy=voteCount&searchQuery=graph)
+    * [Kaggle Implementation: NodeToVec](https://www.kaggle.com/jinfeijoy/cc-fraud-graph-analytics)   
+    * create features and generate plot
 * [HEALTHCARE PROVIDER FRAUD DETECTION ANALYSIS](https://www.kaggle.com/rohitrox/healthcare-provider-fraud-detection-analysis)
 * [yelp fraud reviews](https://paperswithcode.com/dataset/yelpchi)
     
