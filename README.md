@@ -15,15 +15,15 @@
   * Find Task/Database Exploration: Feb18 - Feb19
 * [Traditional Graph Analyasis](https://www.analyticsvidhya.com/blog/2018/04/introduction-to-graph-theory-network-analysis-python-codes/): 22Feb21 - 22Mar20
   * Concept and application
-    * [Community Detection: Fraud Detection](https://github.com/jinfeijoy/graph-analytics/tree/main/fraud_detection) (Feb21 - Feb27)
-    * [Path Analytics: New York City Taxi Trip Duration](https://github.com/jinfeijoy/graph-analytics/tree/main/newyork_text_duration) (Feb28 - Mar6)
-    * Visualization: (Mar7 - 13)
-    * [Centrality Analytics: Social Network Analytics](https://towardsdatascience.com/social-network-analysis-from-theory-to-applications-with-python-d12e9a34c2c7) (Mar14 - Mar20)
+    * [Community Detection: Fraud Detection](https://github.com/jinfeijoy/graph-analytics/tree/main/fraud_detection) (Feb21 - Mar6)
+    * [Path Analytics: New York City Taxi Trip Duration](https://github.com/jinfeijoy/graph-analytics/tree/main/newyork_text_duration) (Mar7 - 13)
+    * Visualization: (Mar14 - Mar20)
+    * [Centrality Analytics: Social Network Analytics](https://towardsdatascience.com/social-network-analysis-from-theory-to-applications-with-python-d12e9a34c2c7) (Mar21 - Mar27)
   * Code Implementation 
     * Model: data discovery, anomaly detection, rule engines
     * Neo4j
     * Visualization 
-* [Graph Machine Learning](https://towardsdatascience.com/top-trends-of-graph-machine-learning-in-2020-1194175351a3): 22Mar21 - 22Apr3
+* [Graph Machine Learning](https://towardsdatascience.com/top-trends-of-graph-machine-learning-in-2020-1194175351a3): 22Mar28 - 22Apr3
   * [Graph Embedding](https://dmccreary.medium.com/understanding-graph-embeddings-79342921a97f) 
   * Knowledge Graph: create a knowledge graph based on dataset (e.g. 人物关系)
 * More to explore: real time recommendation system: 22Apr4 - 22Apr17
