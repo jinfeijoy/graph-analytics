@@ -6,6 +6,9 @@
     * [Kaggle Implementation: NodeToVec](https://www.kaggle.com/jinfeijoy/cc-fraud-graph-analytics)   
     * [create features and generate plot](https://www.kaggle.com/jinfeijoy/cc-fraud-graph-analytics-traditional-method)
 * [HEALTHCARE PROVIDER FRAUD DETECTION ANALYSIS](https://www.kaggle.com/rohitrox/healthcare-provider-fraud-detection-analysis): Feb28-Mar6
+    * [Graph Analytics for Healthcare Fraud Risk Estimation](http://www.karlbranting.net/papers/FOSINT_Branting_et_al.pdf) 
+    * https://medium.com/analytics-vidhya/healthcare-provider-fraud-detection-analysis-using-machine-learning-81ebf09ed955
+    * https://rohansoni-jssaten2019.medium.com/healthcare-provider-fraud-detection-and-analysis-machine-learning-6af6366caff2
 * [yelp fraud reviews](https://paperswithcode.com/dataset/yelpchi)
     
 ## Reference:
