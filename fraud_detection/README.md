@@ -1,4 +1,5 @@
 # Fraud Detection
+* [Community Detection Algorithm](https://towardsdatascience.com/community-detection-algorithms-9bd8951e7dae)
 
 ## Dataset
 
