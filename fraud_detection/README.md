@@ -21,7 +21,7 @@
       * Walktrap Community Detection
          * based on random walks in which distance between vertices are measured through random walks in the network. 
 * Python packages: igraph, cdlib 
-
+* [A survey of community detection methods in multilayer networks](https://link.springer.com/article/10.1007/s10618-020-00716-6)
 
 ## Dataset
 
