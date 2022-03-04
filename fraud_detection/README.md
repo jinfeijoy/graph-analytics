@@ -9,6 +9,7 @@
     * [Graph Analytics for Healthcare Fraud Risk Estimation](http://www.karlbranting.net/papers/FOSINT_Branting_et_al.pdf) 
     * https://medium.com/analytics-vidhya/healthcare-provider-fraud-detection-analysis-using-machine-learning-81ebf09ed955
     * https://rohansoni-jssaten2019.medium.com/healthcare-provider-fraud-detection-and-analysis-machine-learning-6af6366caff2
+    * https://towardsdatascience.com/fraud-detection-with-graph-analytics-2678e817b69e
 * [yelp fraud reviews](https://paperswithcode.com/dataset/yelpchi)
     
 ## Reference:
