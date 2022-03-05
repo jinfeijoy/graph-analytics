@@ -23,18 +23,54 @@
       
 * Python packages: igraph, cdlib 
 * [A survey of community detection methods in multilayer networks](https://link.springer.com/article/10.1007/s10618-020-00716-6)
-* An example:
-    * Feature: 
-      * comminuty size 
+## Cases
+* An example: insurance claim detection
+    * Early Detection
+      * example: nodes (policy(unique policy with status)/owner/agent/address/insured/sin), edges (agent-policy, policy-owner, agent-address, owner-address, owner-sin, insured-sin)  
+      * 1. e.g. suspicious findings: confired fraud agent with policy/high #of not taken policies selling to duplicated customers/customers sharing address with agent/customers sharing common sin
+      * 2. new agent recently appointed: ranking among the top by risk model due to high-risk connections detected by degree centrality and node similarity algorithm, sharing address with confirmed fraud agent, same person as customer sharing common sin
+      * terminated the new suspicious agent to avoid futher loss
+    * Graph Features: 
+      * comminuty size (Size of Community within agent cross-sell)
          * community detection -- (using Union Find algorithm)
          * find sets of connected nodes in the graph, where every set is a community including multiple nodes and each node is reachable from other nodes
-         * Example: identify agent susbicious patterns, find agent communities with multiple agents selling early lapset/not taken policies to each other (some domain knowledge required), in this case, agent has relationship with customer and policy (commision fraud, agents sell policy to each other) 
-      * Node Similarity
+         * identify agent susbicious patterns (commision fraud), find agent communities with multiple agents selling early lapset/not taken policies to each other (some domain knowledge required), in this case, agent has relationship with customer and policy 
+         * features: e.g. nodes (agent/PolicyStatus(This PolicyStatus should be all identical policy)), edge between agent and policy status (HasPolicy), edge between agent (SamePerson), PolicyStatus(NotTake, Lapsed, InforcePremiumPaying)
+         * feature value: number of agent in this community
+      * Node Similarity (Node Similarity score with misconduct agent)
         * Jaccard Similarity Score
         * measure the similarity between agent node pairs based on common neighbors connected 
         * flag agents who are closely connected with confirmed fraud agents via high-risk connections (e.g. sharing common personal info with each other or common customers)
-      *  
-
+        * features: e.g. nodes (agent/customers/Fraud), edge between agent and customers (connectedByPhone/Email), edge between agent and fraud (hasCase)
+      * Degree Centrality (high risk degree centrality score)
+        * number of direct connections of nodes in the graph
+        * compute the score for agents based on high-risk-connections (e.g. sharing common personal infor with customers) 
+        * how agent and customers are connected 
+        * features: e.g. nodes (agent/customers), edge (connectedByAddress/Email/Phone)
+        * feature value: how many connections this agent has in the graph that we may want to futher look at it 
+      * Other features: #customer sharing phone/#customer sharing address/#Policy/#Policy Owned
+* Entity resolution: disambiguate records related to real world entities by linking and grouping
+  * apply similarity algorithms on personal attribute data to get similarity scores for profile pairs may fail
+  * resolve transitive links by graph analytics: community detection, if all clients are in the same community, then they can be reachable to each other, then we determine they are the same person         
+* Fraudulent Transactions
+  * ![image](https://user-images.githubusercontent.com/16402963/156864780-6ba02d60-31d8-4d60-9438-8ede1bce7910.png)
+  * Community Detection -- UnionFind (WCC) algorithm
+    * find sets of connected nodes in the graph
+    * every set is a community including multiple nodes and each node is reachable from other nodes
+    * fraud ring: account community with known fraud account
+    * extract account profile -> extract edges (common attributes) -> create communites -> rank communities -> save communities
+  * Python-Spark-SQL: PySpark (need to design schema)
+    * NetworkX, Pyspark, DL
+  * traditional model features: recent profile change/current debit amount/pattern like add bill and pay immediately/common emails for young accounts/common receivers for young accounts
+  * K-means: create K clusters of input data: 
+    * find the distance of the records in the test set with each centroid
+    * pick top n as alerts (greater than a threshold value=90%)
+    * sort them by distance in descending error
+  * individual model:
+    * for each account, two models are built (IOF, LOF) in parallel 
+    * each model's outlier scores are standardized (using its training set and test set)
+    * another standardization is performed (once for all IOF, once for all LOF)
+    * top alerts are selected (using intersection or max of average)     
 ## Dataset
 
 * [Kaggle CC Fraud Detection](https://www.kaggle.com/kartik2112/fraud-detection/code?datasetId=817870&sortBy=voteCount&searchQuery=graph): Feb21-27
