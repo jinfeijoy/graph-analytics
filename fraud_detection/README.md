@@ -61,16 +61,17 @@
     * extract account profile -> extract edges (common attributes) -> create communites -> rank communities -> save communities
   * Python-Spark-SQL: PySpark (need to design schema)
     * NetworkX, Pyspark, DL
-  * traditional model features: recent profile change/current debit amount/pattern like add bill and pay immediately/common emails for young accounts/common receivers for young accounts
-  * K-means: create K clusters of input data: 
-    * find the distance of the records in the test set with each centroid
-    * pick top n as alerts (greater than a threshold value=90%)
-    * sort them by distance in descending error
-  * individual model:
-    * for each account, two models are built (IOF, LOF) in parallel 
-    * each model's outlier scores are standardized (using its training set and test set)
-    * another standardization is performed (once for all IOF, once for all LOF)
-    * top alerts are selected (using intersection or max of average)     
+  * traditional model 
+    * features: recent profile change/current debit amount/pattern like add bill and pay immediately/common emails for young accounts/common receivers for young accounts
+    * K-means: create K clusters of input data: 
+      * find the distance of the records in the test set with each centroid
+      * pick top n as alerts (greater than a threshold value=90%)
+      * sort them by distance in descending error
+    * individual model:
+      * for each account, two models are built (IOF, LOF) in parallel 
+      * each model's outlier scores are standardized (using its training set and test set)
+      * another standardization is performed (once for all IOF, once for all LOF)
+      * top alerts are selected (using intersection or max of average)     
 ## Dataset
 
 * [Kaggle CC Fraud Detection](https://www.kaggle.com/kartik2112/fraud-detection/code?datasetId=817870&sortBy=voteCount&searchQuery=graph): Feb21-27
