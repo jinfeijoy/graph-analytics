@@ -20,8 +20,20 @@
          * ![image](https://user-images.githubusercontent.com/16402963/156856025-624de759-873c-41cb-8f8c-3700ec275278.png)
       * Walktrap Community Detection
          * based on random walks in which distance between vertices are measured through random walks in the network. 
+      
 * Python packages: igraph, cdlib 
 * [A survey of community detection methods in multilayer networks](https://link.springer.com/article/10.1007/s10618-020-00716-6)
+* An example:
+    * Feature: 
+      * comminuty size 
+         * community detection -- (using Union Find algorithm)
+         * find sets of connected nodes in the graph, where every set is a community including multiple nodes and each node is reachable from other nodes
+         * Example: identify agent susbicious patterns, find agent communities with multiple agents selling early lapset/not taken policies to each other (some domain knowledge required), in this case, agent has relationship with customer and policy (commision fraud, agents sell policy to each other) 
+      * Node Similarity
+        * Jaccard Similarity Score
+        * measure the similarity between agent node pairs based on common neighbors connected 
+        * flag agents who are closely connected with confirmed fraud agents via high-risk connections (e.g. sharing common personal info with each other or common customers)
+      *  
 
 ## Dataset
 
