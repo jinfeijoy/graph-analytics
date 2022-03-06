@@ -82,6 +82,12 @@
     * https://medium.com/analytics-vidhya/healthcare-provider-fraud-detection-analysis-using-machine-learning-81ebf09ed955
     * https://rohansoni-jssaten2019.medium.com/healthcare-provider-fraud-detection-and-analysis-machine-learning-6af6366caff2
     * https://towardsdatascience.com/fraud-detection-with-graph-analytics-2678e817b69e
+    * planning:
+      * identify duplicated submission (Mar7 - Mar9)
+      * Community Size (Duplicated Submission community size) (Mar10)
+      * Node Similarity (similarity score with misconduct provider) (Mar11 - Marh12)
+      * Degree Centrality (Service Not Provided) (Mar14 - Mar16)
+      * Final Prediction (Mar17- Mar18)
 * [yelp fraud reviews](https://paperswithcode.com/dataset/yelpchi)
     
 ## Reference:
