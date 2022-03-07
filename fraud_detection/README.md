@@ -84,6 +84,8 @@
     * https://towardsdatascience.com/fraud-detection-with-graph-analytics-2678e817b69e
     * planning:
       * identify duplicated submission (Mar7 - Mar9)
+        * Community Size
+        * ![image](https://user-images.githubusercontent.com/16402963/157133394-f7c81d2a-b954-47da-bda7-85fcc5dd30ba.png)
       * Community Size (Duplicated Submission community size) (Mar10)
       * Node Similarity (similarity score with misconduct provider) (Mar11 - Marh12)
       * Degree Centrality (Service Not Provided) (Mar14 - Mar16)
