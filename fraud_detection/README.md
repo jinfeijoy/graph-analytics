@@ -33,13 +33,13 @@
     * Graph Features: 
       * comminuty size (Size of Community within agent cross-sell)
          * community detection -- (using Union Find algorithm)
-         * find sets of connected nodes in the graph, where every set is a community including multiple nodes and each node is reachable from other nodes
+         * **find sets of connected nodes in the graph, where every set is a community including multiple nodes and each node is reachable from other nodes**
          * identify agent susbicious patterns (commision fraud), find agent communities with multiple agents selling early lapset/not taken policies to each other (some domain knowledge required), in this case, agent has relationship with customer and policy 
          * features: e.g. nodes (agent/PolicyStatus(This PolicyStatus should be all identical policy)), edge between agent and policy status (HasPolicy), edge between agent (SamePerson), PolicyStatus(NotTake, Lapsed, InforcePremiumPaying)
          * feature value: number of agent in this community
       * Node Similarity (Node Similarity score with misconduct agent)
         * Jaccard Similarity Score
-        * measure the similarity between agent node pairs based on common neighbors connected 
+        * measure the similarity between **agent node pairs** based on common neighbors connected 
         * flag agents who are closely connected with confirmed fraud agents via high-risk connections (e.g. sharing common personal info with each other or common customers)
         * features: e.g. nodes (agent/customers/Fraud), edge between agent and customers (connectedByPhone/Email), edge between agent and fraud (hasCase)
       * Degree Centrality (high risk degree centrality score)
