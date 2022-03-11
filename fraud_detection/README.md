@@ -72,6 +72,10 @@
       * each model's outlier scores are standardized (using its training set and test set)
       * another standardization is performed (once for all IOF, once for all LOF)
       * top alerts are selected (using intersection or max of average)     
+## Cypher
+* [Neo4j Notes](https://github.com/jinfeijoy/graph-analytics/blob/main/fraud_detection/neo4j_cypher_code.md)
+* [Neo4j Python]()
+
 ## Dataset
 
 * [Kaggle CC Fraud Detection](https://www.kaggle.com/kartik2112/fraud-detection/code?datasetId=817870&sortBy=voteCount&searchQuery=graph): Feb21-27
