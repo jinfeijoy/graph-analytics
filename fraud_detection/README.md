@@ -92,7 +92,7 @@
         * ![image](https://user-images.githubusercontent.com/16402963/157133394-f7c81d2a-b954-47da-bda7-85fcc5dd30ba.png)
         * if only simple compare the same amount/provider/date/pysician, it is more simple to use group by and count N
       * Create Graph Neo4j (Mar10)
-      * Node Similarity (similarity score with misconduct provider(provider pair similarity)) (Mar11 - Marh12)
+      * Node Jaccard Similarity (similarity score with misconduct provider(provider pair similarity)) (Mar11 - Marh12)
       * Degree Centrality (Service Not Provided) (Mar14 - Mar16)
       * Final Prediction (and node2Vec) (Mar17- Mar18)
       * Cypher code (Mar19 - Mar22)
