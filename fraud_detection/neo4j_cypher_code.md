@@ -37,6 +37,68 @@
     MERGE (p: Provider {ID: ROW.Provider, Label:ROW.PotentialFraud})
     MERGE (ph: Physician {ID: ROW.AttendingPhysician})
     MERGE (c) - [:Link_to] - (b)
+    MERGE (c) - [:Link_to] - (p)
+    MERGE (c) - [:Link_to] - (ph)
     MERGE (b) <- [:Provice_Service] - (p)
     MERGE (p) <- [:Wrok_at] - (ph)
     ```
+
+## Calculations
+* Similarity Calculation
+  * https://www.markhneedham.com/blog/2018/09/28/neo4j-graph-algorithms-cosine-game-of-thrones/
+  
+* Find degree of node Provider:
+  * ```buildoutcfg
+    MATCH (n:Provider)-[r]-()
+    RETURN n.ID, count(distinct r) as degree
+    ORDER by degree
+    ```
+* Find 2nd neighbors of 'BENE27147'
+  * ```buildoutcfg
+    MATCH (b)-[:Link_to*..2]-(c)
+    WHERE b.ID='BENE27147'
+    RETURN distinct b, c
+    ```
+* [Path analytics](https://www.coursera.org/learn/big-data-graph-analytics/supplement/b0Z7F/path-analytics-in-neo4j-with-cypher-supplementary-resources)
+* Same Node Different Pair Similarity
+  * [Jaccard Similarity Calculation](https://stackoverflow.com/questions/49503383/computing-similarity-between-all-nodes-neo4j-getting-different-values-for-a-no)
+  ```buildoutcfg
+  MATCH (p:Provider) WITH COLLECT(p) AS Providers
+  UNWIND Providers as provider1
+  UNWIND Providers as provider2 
+  
+  MATCH(provider1)-[:Provice_Service]->(common_bene:Beneficial)<-[:Provice_Service]-(provider2) WHERE ID(provider1) > ID(provider2)
+  WITH provider1, provider2, COLLECT(common_bene) AS intersection_bene
+  
+  MATCH (provider1)-[:Provice_Service]->(pv1_b:Beneficial)
+  WITH provider1, provider2, intersection_bene, 
+       COLLECT(pv1_b) AS s1
+  
+  MATCH (provider2)-[:Provice_Service]->(pv2_b:Beneficial)
+  WITH provider1,provider2,intersection_bene, s1, 
+       COLLECT(pv2_b) AS s2
+  
+  RETURN provider1, provider2,
+         (1.0 * SIZE(intersection_bene)) / (SIZE(s1) + SIZE(s2) - SIZE(intersection_bene)) AS jaccard
+  ````
+  * [Jaccard Similarity Function](https://neo4j.com/docs/graph-data-science/current/alpha-algorithms/jaccard/)
+  ```buildoutcfg
+  MATCH (p:Provider) WITH COLLECT(p) AS Providers
+  UNWIND Providers as provider1
+  UNWIND Providers as provider2 
+  
+  MATCH(provider1)-[:Provice_Service]->(common_bene:Beneficial)<-[:Provice_Service]-(provider2) WHERE ID(provider1) > ID(provider2)
+  WITH provider1, provider2, COLLECT(common_bene) AS intersection_bene
+  
+  MATCH (provider1)-[:Provice_Service]->(pv1_b:Beneficial)
+  WITH provider1, provider2, intersection_bene, 
+       COLLECT(id(pv1_b)) AS s1
+  
+  MATCH (provider2)-[:Provice_Service]->(pv2_b:Beneficial)
+  WITH provider1,provider2,intersection_bene, s1, 
+       COLLECT(id(pv2_b)) AS s2
+  
+  RETURN provider1.ID, provider1.Label,
+        provider2.ID, provider2.Label,
+       gds.alpha.similarity.jaccard(s1, s2) AS similarity
+  ```
