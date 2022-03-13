@@ -28,6 +28,10 @@
   * Knowledge Graph: create a knowledge graph based on dataset (e.g. 人物关系)
 * More to explore: real time recommendation system: 22May1 - 22May15
 
+### Cypher
+* [Neo4j Notes](https://github.com/jinfeijoy/graph-analytics/blob/main/fraud_detection/neo4j_cypher_code.md)
+* [Neo4j Python]()
+
 ### Dataset
 * [Interesting Dataset for Graph Neural Network](https://medium.com/@khangphysix1997/interesting-dataset-for-graph-neural-network-7a6fc792786e)
 * [How To Get Started with Social Network Analysis](https://towardsdatascience.com/how-to-get-started-with-social-network-analysis-6d527685d374)
