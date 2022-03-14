@@ -94,9 +94,10 @@
       * Create Graph Neo4j (Mar10)
       * Node Jaccard Similarity (similarity score with misconduct provider(provider pair similarity)) (Mar11 - Marh12)
       * Neo4j in python (Mar14 - Mar15)
-      * Degree Centrality (Service Not Provided) (Mar16-Mar17)
-      * Final Prediction (and node2Vec) (Mar18)
-      * Cypher code (Mar19 - Mar22)
+      * Node2Vec Node Pair Similarity (Mar16)
+      * Degree Centrality (Service Not Provided) (Mar17-Mar18)
+      * Final Prediction (and node2Vec) (Mar19)
+      * Cypher code (Mar20 - Mar22)
 * [yelp fraud reviews](https://paperswithcode.com/dataset/yelpchi)
     
 ## Reference:
