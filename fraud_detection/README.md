@@ -93,13 +93,24 @@
         * if only simple compare the same amount/provider/date/pysician, it is more simple to use group by and count N
       * Create Graph Neo4j (Mar10)
       * Node Jaccard Similarity (similarity score with misconduct provider(provider pair similarity)) (Mar11 - Marh12)
-      * Neo4j in python (Mar14 - Mar15)
+      * ~~Neo4j in python (Mar14 - Mar15)~~
       * Node2Vec Node Pair Similarity (Mar16)
-      * Degree Centrality (Service Not Provided) (Mar17-Mar18)
-      * Final Prediction (and node2Vec) (Mar19)
-      * Cypher code (Mar20 - Mar22)
+      * ~~Degree Centrality (Service Not Provided) (Mar17-Mar18)~~
+        * this cannot be used to identify service not provided, the basic idea was to find physician who provide service to the same customer at the same time, in this case we assume it is fraud (service not provided), however, since lots of providers are organization like hospital, so it is possible that physician can provide service to different patients. another case, when we use degree centrality to identify high-risk-centrality-degree, the edge is pre-defined, e.g. the email/phone-number/etc. between clients and agents are same, etc. the edges are limited. So we cannot use this method to identify service not provided. 
+* [Entity Resolution: White House Visitor Log](https://www.whitehouse.gov/disclosures/visitor-logs/) (Mar17 - Mar19)
+  * Degree Centrality 
 * [yelp fraud reviews](https://paperswithcode.com/dataset/yelpchi)
     
+## Code
+* create_graph_db: single graph/multigraph/networkx/graph plot/jaccard-coefficient/Node2Vec Similarity/Node2Vec Edge Embedding
+* cc-fraud-graph-analytics-traditional-method: bipartite/tripartite/graph-plot/centrality/page-rank/xgboost/knn/rf/ada-boosting/bagging
+* cc-fraud-graph-analytics: definition for different centrality/community-detection/node2Vec
+* health_provider_community_detection: community-detection
+* medical_provider_fraud_graph_analytics: merge-data
+* baseline.py/centrality_1stSubmission.py/grah2vec.py: competition code
+* neo4j_cypher_code.md: neo4j simple code implementation
+
+
 ## Reference:
 
 * https://medium.com/@mygreatlearning/graph-machine-learning-for-credit-card-fraud-analysis-f63baf3211e5
