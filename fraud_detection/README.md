@@ -96,8 +96,6 @@
       * ~~Neo4j in python (Mar14 - Mar15)~~
       * Node2Vec Node Pair Similarity (Mar16)
       * Degree Centrality (Service Not Provided) (Mar17-Mar18)
-      * Final Prediction (and node2Vec) (Mar19)
-      * Cypher code (Mar20 - Mar22)
 * [yelp fraud reviews](https://paperswithcode.com/dataset/yelpchi)
     
 ## Code
