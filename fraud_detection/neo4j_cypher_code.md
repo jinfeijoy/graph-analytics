@@ -103,16 +103,22 @@
        gds.alpha.similarity.jaccard(s1, s2) AS similarity
   ```
 
-## Entity
-```buildoutcfg
-LOAD CSV WITH HEADERS FROM "file:///wh_visitor_clean_data.csv" AS ROW
-MERGE (c: caller {NAME: ROW.CALLER_NAME})
-MERGE (v: visitor {NAME: ROW.VISITOR_NAME})
-MERGE (vf: visitor_nf {NAME: ROW.NAMEFIRST})
-MERGE (vm: visitor_nm {NAME: ROW.NAMEMID})
-MERGE (vl: visitor_nl {NAME: ROW.NAMELAST})
-MERGE (c) - [:Link_to] - (v)
-MERGE (vf) - [:same_person] - (v)
-MERGE (vm) - [:same_person] - (v)
-MERGE (vl) - [:same_person] - (v)
-```
+## Example: Entity Resolution
+* Object: to detect same person with different name due to typo or initial
+* Create graph database:
+    ```buildoutcfg
+    LOAD CSV WITH HEADERS FROM "file:///wh_visitor_clean_data.csv" AS ROW
+    MERGE (c: caller {NAME: ROW.CALLER_NAME})
+    MERGE (v: visitor {NAME: ROW.VISITOR_NAME})
+    MERGE (vf: visitor_nf {NAME: ROW.NAMEFIRST})
+    MERGE (vm: visitor_nm {NAME: ROW.NAMEMID})
+    MERGE (vl: visitor_nl {NAME: ROW.NAMELAST})
+    MERGE (c) - [:Link_to] - (v)
+    MERGE (vf) - [:same_person] - (v)
+    MERGE (vm) - [:same_person] - (v)
+    MERGE (vl) - [:same_person] - (v)
+    ```
+* Show same person example:
+  ![image](https://user-images.githubusercontent.com/16402963/159086215-546df4c0-ae96-42e5-b039-d2e14a62ccd6.png)
+
+* 
