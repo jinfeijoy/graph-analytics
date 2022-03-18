@@ -96,6 +96,7 @@
       * ~~Neo4j in python (Mar14 - Mar15)~~
       * Node2Vec Node Pair Similarity (Mar16)
       * Degree Centrality (Service Not Provided) (Mar17-Mar18)
+        * this cannot be used to identify service not provided, the basic idea was to find physician who provide service to the same customer at the same time, in this case we assume it is fraud (service not provided), however, since lots of providers are organization like hospital, so it is possible that physician can provide service to different patients. another case, when we use degree centrality to identify high-risk-centrality-degree, the edge is pre-defined, e.g. the email/phone-number/etc. between clients and agents are same, etc. the edges are limited. So we cannot use this method to identify service not provided. 
 * [yelp fraud reviews](https://paperswithcode.com/dataset/yelpchi)
     
 ## Code
