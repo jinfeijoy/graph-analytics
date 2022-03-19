@@ -126,23 +126,20 @@
 * Show same person example:
   ![image](https://user-images.githubusercontent.com/16402963/159086215-546df4c0-ae96-42e5-b039-d2e14a62ccd6.png)
 
-* Degree
+* Find out visitors visiting same caller has same last name
     ```buildoutcfg
     MATCH (v:visitor) WITH COLLECT(v) AS visitors
     UNWIND visitors as visitor1
     UNWIND visitors as visitor2 
 
     MATCH(visitor1)-[:same_lastname]->(common_lastname:visitor_nl)<-[:same_lastname]-(visitor2) WHERE ID(visitor1) > ID(visitor2)
-    WITH visitor1, visitor2, COLLECT(common_lastname) AS intersection_firstname
+    WITH visitor1, visitor2
 
-    MATCH (visitor1)-[:same_lastname]->(v1_lm:visitor_nl)
-    WITH visitor1, visitor2, intersection_firstname, 
-         COLLECT(v1_lm) AS s1
+    MATCH (v1_c:caller)-[:Link_to]->(visitor1)
+    WITH visitor1, visitor2, v1_c AS caller1
+    MATCH (v2_c:caller)-[:Link_to]->(visitor2)
+    WITH visitor1,visitor2, caller1, v2_c AS caller2
+    WHERE caller1=caller2
 
-    MATCH (visitor2)-[:same_lastname]->(v2_lm:visitor_nl)
-    WITH visitor1,visitor2,intersection_firstname, s1, 
-         COLLECT(v2_lm) AS s2
-
-    RETURN visitor1.NAME, visitor2.NAME,
-         SIZE(intersection_firstname) AS degree
+    RETURN visitor1.NAME, visitor2.NAME, caller1.NAME, caller2.NAME
     ```
