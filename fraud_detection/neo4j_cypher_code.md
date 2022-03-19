@@ -139,7 +139,13 @@
     WITH visitor1, visitor2, v1_c AS caller1
     MATCH (v2_c:caller)-[:Link_to]->(visitor2)
     WITH visitor1,visitor2, caller1, v2_c AS caller2
+
+    MATCH (visitor1)-[:same_firstname]->(v1fn:visitor_nf)
+    WITH visitor1,visitor2, caller1, caller2, v1fn
+    MATCH (visitor2)-[:same_firstname]->(v2fn:visitor_nf)
+    WITH visitor1,visitor2, caller1, caller2, v1fn, v2fn
+
     WHERE caller1=caller2
 
-    RETURN visitor1.NAME, visitor2.NAME, caller1.NAME, caller2.NAME
+    RETURN visitor1.NAME, visitor2.NAME, caller1.NAME, caller2.NAME, v1fn.NAME, v2fn.NAME
     ```
