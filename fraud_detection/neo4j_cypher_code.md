@@ -102,6 +102,11 @@
         provider2.ID, provider2.Label,
        gds.alpha.similarity.jaccard(s1, s2) AS similarity
   ```
+## Others
+* Delete all edges and nodes:
+  ```buildoutcfg
+  MATCH (n) DETACH DELETE n;
+  ```
 
 ## Example: Entity Resolution
 * Object: to detect same person with different name due to typo or initial
