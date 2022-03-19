@@ -114,9 +114,9 @@
     MERGE (vm: visitor_nm {NAME: ROW.NAMEMID})
     MERGE (vl: visitor_nl {NAME: ROW.NAMELAST})
     MERGE (c) - [:Link_to] - (v)
-    MERGE (vf) - [:same_person] - (v)
-    MERGE (vm) - [:same_person] - (v)
-    MERGE (vl) - [:same_person] - (v)
+    MERGE (v) - [:same_lastname] - (vl)
+    MERGE (v) - [:same_midname] - (vm)
+    MERGE (v) - [:same_firstname] - (vf)
     ```
 * Show same person example:
   ![image](https://user-images.githubusercontent.com/16402963/159086215-546df4c0-ae96-42e5-b039-d2e14a62ccd6.png)
