@@ -102,3 +102,50 @@
         provider2.ID, provider2.Label,
        gds.alpha.similarity.jaccard(s1, s2) AS similarity
   ```
+## Others
+* Delete all edges and nodes:
+  ```buildoutcfg
+  MATCH (n) DETACH DELETE n;
+  ```
+
+## Example: Entity Resolution
+* Object: to detect same person with different name due to typo or initial
+* Create graph database:
+    ```buildoutcfg
+    LOAD CSV WITH HEADERS FROM "file:///wh_visitor_clean_data.csv" AS ROW
+    MERGE (c: caller {NAME: ROW.CALLER_NAME})
+    MERGE (v: visitor {NAME: ROW.VISITOR_NAME})
+    MERGE (vf: visitor_nf {NAME: ROW.NAMEFIRST})
+    MERGE (vm: visitor_nm {NAME: ROW.NAMEMID})
+    MERGE (vl: visitor_nl {NAME: ROW.NAMELAST})
+    MERGE (c) - [:Link_to] - (v)
+    MERGE (v) - [:same_lastname] - (vl)
+    MERGE (v) - [:same_midname] - (vm)
+    MERGE (v) - [:same_firstname] - (vf)
+    ```
+* Show same person example:
+  ![image](https://user-images.githubusercontent.com/16402963/159086215-546df4c0-ae96-42e5-b039-d2e14a62ccd6.png)
+
+* Find out visitors visiting same caller has same last name
+    ```buildoutcfg
+    MATCH (v:visitor) WITH COLLECT(v) AS visitors
+    UNWIND visitors as visitor1
+    UNWIND visitors as visitor2 
+
+    MATCH(visitor1)-[:same_lastname]->(common_lastname:visitor_nl)<-[:same_lastname]-(visitor2) WHERE ID(visitor1) > ID(visitor2)
+    WITH visitor1, visitor2
+
+    MATCH (v1_c:caller)-[:Link_to]->(visitor1)
+    WITH visitor1, visitor2, v1_c AS caller1
+    MATCH (v2_c:caller)-[:Link_to]->(visitor2)
+    WITH visitor1,visitor2, caller1, v2_c AS caller2
+
+    MATCH (visitor1)-[:same_firstname]->(v1fn:visitor_nf)
+    WITH visitor1,visitor2, caller1, caller2, v1fn
+    MATCH (visitor2)-[:same_firstname]->(v2fn:visitor_nf)
+    WITH visitor1,visitor2, caller1, caller2, v1fn, v2fn
+
+    WHERE caller1=caller2
+
+    RETURN visitor1.NAME, visitor2.NAME, caller1.NAME, caller2.NAME, v1fn.NAME, v2fn.NAME
+    ```
