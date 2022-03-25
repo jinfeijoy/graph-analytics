@@ -16,9 +16,9 @@
 * [Traditional Graph Analyasis](https://www.analyticsvidhya.com/blog/2018/04/introduction-to-graph-theory-network-analysis-python-codes/): 22Feb21 - 22Apr24
   * Concept and application
     * [Community Detection: Fraud Detection](https://github.com/jinfeijoy/graph-analytics/tree/main/fraud_detection) (Feb21 - Mar19)
-    * [Path Analytics: New York City Taxi Trip Duration](https://github.com/jinfeijoy/graph-analytics/tree/main/newyork_text_duration) (Mar21 - Apr6)
-    * Visualization: (Apr6 - Apr10)
-    * [Centrality Analytics: Social Network Analytics](https://towardsdatascience.com/social-network-analysis-from-theory-to-applications-with-python-d12e9a34c2c7) (Apr11 - Apr24)
+    * [Path Analytics: New York City Taxi Trip Duration](https://github.com/jinfeijoy/graph-analytics/tree/main/newyork_text_duration) (Mar21 - Mar26)
+    * [Centrality Analytics: Social Network Analytics](https://towardsdatascience.com/social-network-analysis-from-theory-to-applications-with-python-d12e9a34c2c7) (Mar28 - Apr17)
+    * Visualization: (Apr18 - Apr24)
   * Code Implementation 
     * Model: data discovery, anomaly detection, rule engines
     * Neo4j
