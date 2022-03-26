@@ -17,6 +17,7 @@
 * [Dynamics of New York city - Animation](https://www.kaggle.com/code/drgilermo/dynamics-of-new-york-city-animation): cluster plot, neiborhood intersection
 * [Yellow Cabs tell The Story of New York City](https://www.kaggle.com/code/selfishgene/yellow-cabs-tell-the-story-of-new-york-city): spatial density plot of the pickup and dropoff locations,typical Trips on the Map
 * [Interactive EDA NYtaxi - highchar/leaflet](https://www.kaggle.com/code/damianpanek/interactive-eda-nytaxi-highchar-leaflet): temporature plot, 
+
   ![Screen Shot 2022-03-26 at 6 41 53 PM](https://user-images.githubusercontent.com/16402963/160259359-018a8522-3669-450b-bf33-66294da1f3b0.png)
 
 
