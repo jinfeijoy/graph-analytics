@@ -12,7 +12,9 @@
 * ![image](https://user-images.githubusercontent.com/16402963/160734201-2c5da042-1662-4f3a-b105-8a68da96f981.png)
 * Network science techniques draw out the hidden patterns in this complex relational data. Community detection discovers six main communities in “A Game of Thrones.” A suite of centrality measures highlights the different ways in which characters play essential roles. Prominence in this interaction network corresponds to narrative importance. PageRank’s feedback loop is particularly effective in this regard: encounters between prominent characters accelerate narrative development. PageRank rightly identifies Ned Stark as the clear protagonist of the first book.
 
-
+### Task
+* **Task1**: Implement Game Thrones characters relationship (Apr1 - Apr7)
+* **Task2**: Find an interesting book and get characters relationship (can be chinese version) (Apr8 - Apr14)
 
 ### Reference
 * [Social Network Analysis: From Graph Theory to Applications with Python](https://towardsdatascience.com/social-network-analysis-from-theory-to-applications-with-python-d12e9a34c2c7)
