@@ -14,6 +14,7 @@
 
 ### Task
 * **Task1**: Implement Game Thrones characters relationship (Apr1 - Apr7)
+  * [google colab](https://colab.research.google.com/drive/1UsA0qwJggviZCnEwDq7BN6ch7Q0UzDSB) 
 * **Task2**: Find an interesting book and get characters relationship (can be chinese version) (Apr8 - Apr14)
 
 ### Reference
