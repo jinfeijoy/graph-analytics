@@ -31,3 +31,4 @@
   * [人物列表](https://www.wiki.zh-cn.nina.az/%E7%BA%A2%E6%A5%BC%E6%A2%A6%E4%BA%BA%E7%89%A9%E5%88%97%E8%A1%A8.html)
   * [文本分析](http://rstudio-pubs-static.s3.amazonaws.com/227559_ee7a18cc09364b9f8630de94cc12e9e2.html)
   * [知识图谱](https://blog.csdn.net/RHJlife/article/details/108586578) 
+  * [graph dataset](https://github.com/echoma/think_before_act/tree/master/ss_wiki/1st/source/01_stone_story)
