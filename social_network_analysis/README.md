@@ -26,3 +26,8 @@
 ### Reference
 * [Social Network Analysis: From Graph Theory to Applications with Python](https://towardsdatascience.com/social-network-analysis-from-theory-to-applications-with-python-d12e9a34c2c7)
 * [NETWORK OF THRONES](https://networkofthrones.wordpress.com/)
+* 红楼梦
+  * [人物关系图](https://echoma.github.io/novel_datamation/story_of_stone/graph.html)
+  * [人物列表](https://www.wiki.zh-cn.nina.az/%E7%BA%A2%E6%A5%BC%E6%A2%A6%E4%BA%BA%E7%89%A9%E5%88%97%E8%A1%A8.html)
+  * [文本分析](http://rstudio-pubs-static.s3.amazonaws.com/227559_ee7a18cc09364b9f8630de94cc12e9e2.html)
+  * [知识图谱](https://blog.csdn.net/RHJlife/article/details/108586578) 
