@@ -168,6 +168,7 @@
     )
     ```
 * PageRank
+    * Code
     ```buildoutcfg
     CALL gds.pageRank.stream('full_graph', {
       maxIterations: 20,
@@ -181,5 +182,15 @@
     CALL 
     gds.pageRank.write('full_graph', {writeProperty: 'pageRank'})
     ```
-* [Visualization Setting in Neo4j Bloom](https://medium.com/neo4j/hands-on-with-the-neo4j-graph-data-science-sandbox-7b780be5a44f)
-  * ![image](https://user-images.githubusercontent.com/16402963/161657408-46d08fc8-5faa-458e-9d42-283b4a26816c.png)
+  * [Visualization Setting in Neo4j Bloom](https://medium.com/neo4j/hands-on-with-the-neo4j-graph-data-science-sandbox-7b780be5a44f)
+    * ![image](https://user-images.githubusercontent.com/16402963/161657408-46d08fc8-5faa-458e-9d42-283b4a26816c.png)
+* Community Detection
+  * Code
+    ```buildoutcfg
+    CALL gds.louvain.write('full_graph', 
+      {relationshipWeightProperty: 'weight', 
+       writeProperty: 'full_community_id'
+      })
+    ```
+  * Visualization
+    * ![image](https://user-images.githubusercontent.com/16402963/161657993-db3ebf99-63d4-4eff-a8d9-fb33bfa8be1a.png)
