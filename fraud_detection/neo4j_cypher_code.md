@@ -195,5 +195,5 @@
   * Visualization
     * ![image](https://user-images.githubusercontent.com/16402963/161657993-db3ebf99-63d4-4eff-a8d9-fb33bfa8be1a.png)
   * Adding Weight as Edge Size
-    * ![image](https://user-images.githubusercontent.com/16402963/161658992-fc7387fe-d060-4818-9c5e-2901e90cffbd.png)
+    * ![image](https://user-images.githubusercontent.com/16402963/161659046-040664e9-252f-427e-9681-8ae52092bb05.png)
  
