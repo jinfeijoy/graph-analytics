@@ -149,7 +149,7 @@
 
     RETURN visitor1.NAME, visitor2.NAME, caller1.NAME, caller2.NAME, v1fn.NAME, v2fn.NAME
     ```
-## Example: Game Of Throns
+## Example: [Game Of Throns](https://towardsdatascience.com/how-to-get-started-with-the-new-graph-data-science-library-of-neo4j-3c8fff6107b)
 * Create graph database:
     ```buildoutcfg
     LOAD CSV WITH HEADERS FROM "file:///got-s1-edges.csv" AS ROW
