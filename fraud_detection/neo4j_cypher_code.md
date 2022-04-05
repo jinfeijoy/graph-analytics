@@ -152,8 +152,34 @@
 ## Example: [Game Of Throns](https://towardsdatascience.com/how-to-get-started-with-the-new-graph-data-science-library-of-neo4j-3c8fff6107b)
 * Create graph database:
     ```buildoutcfg
-    LOAD CSV WITH HEADERS FROM "file:///got-s1-edges.csv" AS ROW
-    MERGE (s: Source {NAME: ROW.Source})
-    MERGE (t: Target {NAME: ROW.Target})
-    MERGE (s)-[:REL {weight: toFloat(ROW.Weight)}]->(t);
+    LOAD CSV WITH HEADERS FROM "file:///got-s1-nodes.csv" AS row
+    MERGE (c:Character {id:row.Id})
+    SET c.name = row.Label
+    
+    LOAD CSV WITH HEADERS FROM "file:///got-s1-edges.csv" AS row
+    MATCH (source:Character {id: row.Source})
+    MATCH (target:Character {id: row.Target})
+    MERGE (source)-[:SEASON1 {weight: toInteger(row.Weight)}]-(target)
+    
+    CALL gds.graph.create.cypher(
+    'full_graph',
+    'MATCH (n) RETURN id(n) AS id',
+    'MATCH (n)-[e]-(m) RETURN id(n) AS source, e.weight AS weight, id(m) AS target'
+    )
     ```
+* PageRank
+    ```buildoutcfg
+    CALL gds.pageRank.stream('full_graph', {
+      maxIterations: 20,
+      dampingFactor: 0.85,
+      relationshipWeightProperty: 'weight'
+    })
+    YIELD nodeId, score
+    RETURN gds.util.asNode(nodeId).id AS id,      gds.util.asNode(nodeId).name as name, score as full_pagerank
+    ORDER BY full_pagerank DESC
+    
+    CALL 
+    gds.pageRank.write('full_graph', {writeProperty: 'pageRank'})
+    ```
+* [Visualization Setting in Neo4j Bloom](https://medium.com/neo4j/hands-on-with-the-neo4j-graph-data-science-sandbox-7b780be5a44f)
+  * ![image](https://user-images.githubusercontent.com/16402963/161657408-46d08fc8-5faa-458e-9d42-283b4a26816c.png)
