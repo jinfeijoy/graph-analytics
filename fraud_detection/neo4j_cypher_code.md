@@ -149,3 +149,11 @@
 
     RETURN visitor1.NAME, visitor2.NAME, caller1.NAME, caller2.NAME, v1fn.NAME, v2fn.NAME
     ```
+## Example: Game Of Throns
+* Create graph database:
+    ```buildoutcfg
+    LOAD CSV WITH HEADERS FROM "file:///got-s1-edges.csv" AS ROW
+    MERGE (s: Source {NAME: ROW.Source})
+    MERGE (t: Target {NAME: ROW.Target})
+    MERGE (s)-[:REL {weight: toFloat(ROW.Weight)}]->(t);
+    ```
