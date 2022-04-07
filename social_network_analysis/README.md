@@ -21,7 +21,10 @@
   * [Neo4j Bloom Implementation](https://github.com/jinfeijoy/graph-analytics/blob/main/fraud_detection/neo4j_cypher_code.md)
     * ![image](https://user-images.githubusercontent.com/16402963/161659310-c3969c3a-0250-43e3-8d16-a5dabf968fa7.png)
   * Using **Gephi** can generate the similar plot as the 1st plot, export data from neoj to gephi can be found [here](https://neo4j.com/labs/apoc/4.1/export/gephi/), cookbook sample can be found [here](https://subscription.packtpub.com/book/big_data_/9781783987405/7/ch07lvl1sec83/previewing-and-fine-tuning-a-graph-in-the-default-curved-mode)
-* **Task2**: Find an interesting book and get characters relationship (can be chinese version) (Apr8 - Apr14)
+* **Task2**: Find an interesting book and get characters relationship (can be chinese version) (Apr7 - Apr14)
+  * json file to neo4j (Apr7-8)
+  * Explore 'honglou' code -- text processing (Apr9)
+  * hands on 'honglou' (more plan after explore sample code)
 
 ### Reference
 * [Social Network Analysis: From Graph Theory to Applications with Python](https://towardsdatascience.com/social-network-analysis-from-theory-to-applications-with-python-d12e9a34c2c7)
