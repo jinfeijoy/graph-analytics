@@ -197,3 +197,31 @@
   * Adding Weight as Edge Size
     * ![image](https://user-images.githubusercontent.com/16402963/161659046-040664e9-252f-427e-9681-8ae52092bb05.png)
  
+
+## Example: [红楼梦](https://github.com/echoma/think_before_act/tree/master/ss_wiki/1st/source/01_stone_story)
+* Display data
+  ```buildoutcfg
+  WITH "file:///entity.json" as url 
+  CALL apoc.load.json(url) YIELD value 
+  UNWIND  value.list as data
+  RETURN data limit 5
+  ```
+* Convert data to table format:
+  ```buildoutcfg
+  WITH "file:///entity.json" as url 
+  CALL apoc.load.json(url) YIELD value 
+  UNWIND  value.list as data
+  UNWIND data.pl as reference
+  RETURN data.name, data.type, reference.type, reference.value limit 5
+  ```
+* Create Nodes
+  ```buildoutcfg
+  CALL apoc.load.json("file:///entity.json") YIELD value 
+  UNWIND value.list as data
+  MERGE (p:Person {name: data.name})
+  SET p.type = data.type
+  WITH p, data
+  UNWIND data.pl as reference
+  MERGE (c:Reference {name: reference.value})
+  MERGE (c)-[:property_reference]->(p);
+  ```
