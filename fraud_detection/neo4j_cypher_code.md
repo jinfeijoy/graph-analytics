@@ -29,6 +29,11 @@
     ```buildoutcfg
     MATCH (a:test {Provider:'PRV55215'}) RETURN a.Physician
     ```
+* delete all nodes and edges
+    ```buildoutcfg
+    MATCH (n)
+    DETACH DELETE n
+    ```
 * merge data and create relationship
   * ```buildoutcfg
     LOAD CSV WITH HEADERS FROM "file:///top_3_community.csv" AS ROW
