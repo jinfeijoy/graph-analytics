@@ -29,6 +29,11 @@
     ```buildoutcfg
     MATCH (a:test {Provider:'PRV55215'}) RETURN a.Physician
     ```
+* delete all nodes and edges
+    ```buildoutcfg
+    MATCH (n)
+    DETACH DELETE n
+    ```
 * merge data and create relationship
   * ```buildoutcfg
     LOAD CSV WITH HEADERS FROM "file:///top_3_community.csv" AS ROW
@@ -225,3 +230,15 @@
   MERGE (c:Reference {name: reference.value})
   MERGE (c)-[:property_reference]->(p);
   ```
+* Create Dynamic Edges
+  ```buildoutcfg
+  CALL apoc.load.json("file:///relation.json") YIELD value 
+  UNWIND value.list as data
+  MATCH (source:Person {name: data.sub})
+  MATCH (target:Person {name: data.obj})
+  with source, target, data
+  CALL apoc.create.relationship(source, data.rel,{}, target) YIELD rel
+  REMOVE rel.noOp
+  ```
+* Plot in bloom
+  ![image](https://user-images.githubusercontent.com/16402963/162644646-9209b7ee-fc67-4380-85bd-e53bbeaee6b8.png)
