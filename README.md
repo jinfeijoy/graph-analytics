@@ -17,16 +17,15 @@
   * Concept and application
     * [Community Detection: Fraud Detection](https://github.com/jinfeijoy/graph-analytics/tree/main/fraud_detection) (Feb21 - Mar19)
     * [Path Analytics: New York City Taxi Trip Duration](https://github.com/jinfeijoy/graph-analytics/tree/main/newyork_text_duration) (Mar21 - Mar28)
-    * [Centrality Analytics: Social Network Analytics](https://github.com/jinfeijoy/graph-analytics/tree/main/social_network_analysis) (Mar29 - Apr17)
-    * Visualization: (Apr18 - Apr24)
+    * [Centrality Analytics: Social Network Analytics](https://github.com/jinfeijoy/graph-analytics/tree/main/social_network_analysis) (Mar29 - Apr12)
   * Code Implementation 
     * Model: data discovery, anomaly detection, rule engines
     * Neo4j
     * Visualization 
-* [Graph Machine Learning](https://towardsdatascience.com/top-trends-of-graph-machine-learning-in-2020-1194175351a3): 22Apr25 - 22Apr30
+* [Graph Machine Learning](https://towardsdatascience.com/top-trends-of-graph-machine-learning-in-2020-1194175351a3): 22Apr13 - 22Apr16
   * [Graph Embedding](https://dmccreary.medium.com/understanding-graph-embeddings-79342921a97f) 
   * Knowledge Graph: create a knowledge graph based on dataset (e.g. 人物关系)
-* More to explore: real time recommendation system: 22May1 - 22May15
+* More to explore: real time recommendation system: 22Apr18 - 22Apr30
 
 ### Cypher
 * [Neo4j Notes](https://github.com/jinfeijoy/graph-analytics/blob/main/fraud_detection/neo4j_cypher_code.md)
