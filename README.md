@@ -13,7 +13,7 @@
 * Data Structure/Database -- tableau dataset -> graph dataset/Graph Database: 22Feb13 - 22Feb19
   * [Coursera Course](https://www.coursera.org/learn/big-data-graph-analytics/home/welcome): 22Feb13 - 22Feb17
   * Find Task/Database Exploration: Feb18 - Feb19
-* [Traditional Graph Analyasis](https://www.analyticsvidhya.com/blog/2018/04/introduction-to-graph-theory-network-analysis-python-codes/): 22Feb21 - 22Apr24
+* [Traditional Graph Analyasis](https://www.analyticsvidhya.com/blog/2018/04/introduction-to-graph-theory-network-analysis-python-codes/): 22Feb21 - 22Apr12
   * Concept and application
     * [Community Detection: Fraud Detection](https://github.com/jinfeijoy/graph-analytics/tree/main/fraud_detection) (Feb21 - Mar19)
     * [Path Analytics: New York City Taxi Trip Duration](https://github.com/jinfeijoy/graph-analytics/tree/main/newyork_text_duration) (Mar21 - Mar28)
