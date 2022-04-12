@@ -22,10 +22,8 @@
     * Model: data discovery, anomaly detection, rule engines
     * Neo4j
     * Visualization 
-* [Graph Machine Learning](https://towardsdatascience.com/top-trends-of-graph-machine-learning-in-2020-1194175351a3): 22Apr13 - 22Apr16
-  * [Graph ML in 2022: Where Are We Now?](https://towardsdatascience.com/graph-ml-in-2022-where-are-we-now-f7f8242599e0) 
-  * [Graph Embedding](https://dmccreary.medium.com/understanding-graph-embeddings-79342921a97f) 
-  * Knowledge Graph: create a knowledge graph based on dataset (e.g. 人物关系)
+* [Graph Machine Learning](https://github.com/jinfeijoy/graph-analytics/tree/main/GNN): 22Apr13 - 22Apr16
+   * Knowledge Graph: create a knowledge graph based on dataset (e.g. 人物关系)
 * More to explore: real time recommendation system: 22Apr18 - 22Apr30
 
 ### Cypher
