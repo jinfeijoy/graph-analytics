@@ -22,4 +22,4 @@
 * [Graph ML in 2022: Where Are We Now?](https://towardsdatascience.com/graph-ml-in-2022-where-are-we-now-f7f8242599e0) 
 * [Graph Embedding](https://dmccreary.medium.com/understanding-graph-embeddings-79342921a97f) 
 * [Graph embedding techniques](https://medium.com/@st3llasia/graph-embedding-techniques-7d5386c88c5)
-  
+* [Building a Recommender System Using Graph Neural Networks](https://medium.com/decathlontechnology/building-a-recommender-system-using-graph-neural-networks-2ee5fc4e706d)
