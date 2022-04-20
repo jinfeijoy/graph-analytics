@@ -22,9 +22,8 @@
     * Model: data discovery, anomaly detection, rule engines
     * Neo4j
     * Visualization 
-* [Graph Machine Learning](https://github.com/jinfeijoy/graph-analytics/tree/main/GNN): 22Apr13 - 22Apr30
-   * Knowledge Graph: create a knowledge graph based on dataset (e.g. 人物关系)
-   * More to explore: real time recommendation system: 22Apr21 - 22Apr30
+* [Graph Machine Learning](https://github.com/jinfeijoy/graph-analytics/tree/main/GNN): 22Apr13 - 22May14
+   * More to explore: real time recommendation system: 22Apr25 - 22May14
 
 ### Cypher
 * [Neo4j Notes](https://github.com/jinfeijoy/graph-analytics/blob/main/fraud_detection/neo4j_cypher_code.md)
