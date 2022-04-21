@@ -243,7 +243,7 @@
 * Plot in bloom
   ![image](https://user-images.githubusercontent.com/16402963/162644646-9209b7ee-fc67-4380-85bd-e53bbeaee6b8.png)
 
-## Example: [红楼梦2](https://github.com/echoma/think_before_act/tree/master/ss_wiki/1st/source/01_stone_story)
+## Example: [红楼梦2](https://github.com/jinfeijoy/graph-analytics/blob/main/social_network_analysis/%E7%BA%A2%E6%A5%BC%E6%A2%A6%E4%BA%BA%E7%89%A9%E5%85%B3%E7%B3%BB.ipynb)
 * create graph db
   ```buildoutcfg
   # load data
