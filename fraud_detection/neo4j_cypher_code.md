@@ -244,26 +244,6 @@
   ![image](https://user-images.githubusercontent.com/16402963/162644646-9209b7ee-fc67-4380-85bd-e53bbeaee6b8.png)
 
 ## Example: [红楼梦2](https://github.com/jinfeijoy/graph-analytics/blob/main/social_network_analysis/%E7%BA%A2%E6%A5%BC%E6%A2%A6%E4%BA%BA%E7%89%A9%E5%85%B3%E7%B3%BB.ipynb)
-* create graph db
-  ```buildoutcfg
-  # load data
-  LOAD CSV WITH HEADERS FROM "file:///output_edge.csv" AS row
-  MERGE (source: Character {NAME: row.name1})
-  MERGE (target: Character {NAME: row.name2})
-  MERGE (source)-[:stone {weight: toInteger(row.weight)}]-(target)
-
-  # save graph
-  CALL gds.graph.create.cypher(
-  'full_graph',
-  'MATCH (n) RETURN id(n) AS id',
-  'MATCH (n)-[e]-(m) RETURN id(n) AS source, e.weight AS weight, id(m) AS target'
-  )
-
-  # group detection
-  CALL gds.louvain.write('full_graph', 
-  {relationshipWeightProperty: 'weight', 
-   writeProperty: 'full_community_id'
-  })
-  ```
-
-* 
+* by using same code as game-of-throns
+* to show the name on node, load node file and edge file seperately
+* ![image](https://user-images.githubusercontent.com/16402963/164838831-50d0d2f2-230a-457f-82bd-8529cee99c1e.png)
