@@ -23,7 +23,8 @@
     * Neo4j
     * Visualization 
 * [Graph Machine Learning](https://github.com/jinfeijoy/graph-analytics/tree/main/GNN): 22Apr13 - 22May14
-   * More to explore: real time recommendation system: 22Apr25 - 22May14
+   * recommendation system with graph database: 22Apr25 - 22May4
+   * real time recommendation system: 22May4 - 22May14
 
 ### Cypher
 * [Neo4j Notes](https://github.com/jinfeijoy/graph-analytics/blob/main/fraud_detection/neo4j_cypher_code.md)
