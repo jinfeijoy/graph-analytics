@@ -15,7 +15,7 @@
   * Graph traversal & Random Walk & DeepWalk
 
 ## Planning:
-* recommendation system with graph database: 22Apr25 - 22May4
+* recommendation system with graph database: 22Apr27 - 22May4
 * real time recommendation system: 22May4 - 22May14
 
 ## Reference:
