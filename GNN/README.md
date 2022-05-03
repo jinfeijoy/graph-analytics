@@ -24,6 +24,7 @@
 * [Graph Embedding](https://dmccreary.medium.com/understanding-graph-embeddings-79342921a97f) 
 * [Graph embedding techniques](https://medium.com/@st3llasia/graph-embedding-techniques-7d5386c88c5)
 * [Building a Recommender System Using Graph Neural Networks](https://medium.com/decathlontechnology/building-a-recommender-system-using-graph-neural-networks-2ee5fc4e706d)
+* [Graph Neural Networks Model and Application (Youtube)](https://www.youtube.com/watch?v=zCEYiCxrL_0)
 * Real-time Recommendation:
    * [Real-time Recommendation System: Rolling Feature Matrix](https://towardsdatascience.com/real-time-recommendation-system-rolling-feature-matrix-f5ca701439df)
    * [LSTM for real-time recommendation systems](https://bond-kirill-alexandrovich.medium.com/lstm-for-real-time-recommendation-systems-f5191d564be5)
