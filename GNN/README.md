@@ -40,8 +40,8 @@
 
 
 ## Planning:
-* recommendation system with graph database: 22Apr27 - 22May6
-* real time recommendation system: 22May7 - 22May14
+* recommendation system with graph database: 22Apr27 - 22May8
+* real time recommendation system: 22May9 - 22May14
 
 ## Reference:
 * [Top Trends of Graph Machine Learning in 2020](https://towardsdatascience.com/top-trends-of-graph-machine-learning-in-2020-1194175351a3)
