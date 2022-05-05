@@ -50,7 +50,7 @@
 * [Graph embedding techniques](https://medium.com/@st3llasia/graph-embedding-techniques-7d5386c88c5)
 * [Building a Recommender System Using Graph Neural Networks](https://medium.com/decathlontechnology/building-a-recommender-system-using-graph-neural-networks-2ee5fc4e706d)
 * [Graph Neural Networks Model and Application (Youtube)](https://www.youtube.com/watch?v=zCEYiCxrL_0)
-* Understanding Graph Neural Networks [Part1](https://www.youtube.com/watch?v=fOctJB4kVlM) [Part2](https://www.youtube.com/watch?v=ABCGCf8cJOE&list=PLV8yxwGOxvvoNkzPfCx2i8an--Tkt7O8Z&index=2) [Part3](https://www.youtube.com/watch?v=0YLZXjMHA-8&list=PLV8yxwGOxvvoNkzPfCx2i8an--Tkt7O8Z&index=3) [Other GNN in This Playlist](https://www.youtube.com/playlist?list=PLV8yxwGOxvvoNkzPfCx2i8an--Tkt7O8Z)
+* Understanding Graph Neural Networks [Part1](https://www.youtube.com/watch?v=fOctJB4kVlM)// [Part2](https://www.youtube.com/watch?v=ABCGCf8cJOE&list=PLV8yxwGOxvvoNkzPfCx2i8an--Tkt7O8Z&index=2)// [Part3](https://www.youtube.com/watch?v=0YLZXjMHA-8&list=PLV8yxwGOxvvoNkzPfCx2i8an--Tkt7O8Z&index=3) //[Other GNN in This Playlist](https://www.youtube.com/playlist?list=PLV8yxwGOxvvoNkzPfCx2i8an--Tkt7O8Z)
 * Real-time Recommendation:
    * [Real-time Recommendation System: Rolling Feature Matrix](https://towardsdatascience.com/real-time-recommendation-system-rolling-feature-matrix-f5ca701439df)
    * [LSTM for real-time recommendation systems](https://bond-kirill-alexandrovich.medium.com/lstm-for-real-time-recommendation-systems-f5191d564be5)
