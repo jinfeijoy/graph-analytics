@@ -14,6 +14,31 @@
     * HOPE
   * Graph traversal & Random Walk & DeepWalk
 
+## GNN
+* ![image](https://user-images.githubusercontent.com/16402963/166850171-a7a2d4ce-e7bf-417d-aff9-c0b1aea4e5b4.png)
+* Difficuties for graph data to fit Neural Networks:
+  * Neural Networks requires fixed size input
+  * ![image](https://user-images.githubusercontent.com/16402963/166850373-9b493e43-838b-4d32-84a4-25530fcbdd4c.png)
+* Fundemental Idea of GNNs
+  * ![image](https://user-images.githubusercontent.com/16402963/166850505-977c1031-a396-4e57-a89d-3291a9a578f3.png)
+* How do Graph Neural Networks work
+  * core GNN: message passing layers: combine node and edge information to node embeddings
+  * ![image](https://user-images.githubusercontent.com/16402963/166850596-f97945a2-1640-4817-b2fc-7592d4ec89ec.png)
+* What is happening in the Message Passing Layers: every single node knows something about other node (we know the neighbor first, then know the neighbor of the neighbors)
+  * ![image](https://user-images.githubusercontent.com/16402963/166851058-3570b1b3-891c-4cda-a977-ba7d319398d1.png)
+    * The local feature aggregation can be compared to learnable CNN kernels
+* Computation Graph Representation
+  * the number of layers in GNN defines how many of neighborhoods we perform
+  * the number of MP-layers is a hyperparameter dependent on the graph data
+* Over-smoothing in GNNs: too many layers may lead to over-smoothing
+* Message Passing Update and Aggregation Functions
+  * ![image](https://user-images.githubusercontent.com/16402963/166851558-ab040c68-3813-4a5e-b852-c54b97d1f668.png)
+* **[Graph Representation Learning](https://www.cs.mcgill.ca/~wlh/grl_book/files/GRL_Book.pdf)**
+* **[Graph neural networks: A review of methods and applications](https://arxiv.org/ftp/arxiv/papers/1812/1812.08434.pdf)**
+  * The general design pipeline for GNN model:
+    ![image](https://user-images.githubusercontent.com/16402963/166852662-f6884552-10ac-4d89-9787-c46055eac3bc.png)
+
+
 ## Planning:
 * recommendation system with graph database: 22Apr27 - 22May4
 * real time recommendation system: 22May4 - 22May14
@@ -25,6 +50,7 @@
 * [Graph embedding techniques](https://medium.com/@st3llasia/graph-embedding-techniques-7d5386c88c5)
 * [Building a Recommender System Using Graph Neural Networks](https://medium.com/decathlontechnology/building-a-recommender-system-using-graph-neural-networks-2ee5fc4e706d)
 * [Graph Neural Networks Model and Application (Youtube)](https://www.youtube.com/watch?v=zCEYiCxrL_0)
+* Understanding Graph Neural Networks [Part1](https://www.youtube.com/watch?v=fOctJB4kVlM) [Part2](https://www.youtube.com/watch?v=ABCGCf8cJOE&list=PLV8yxwGOxvvoNkzPfCx2i8an--Tkt7O8Z&index=2) [Part3]()
 * Real-time Recommendation:
    * [Real-time Recommendation System: Rolling Feature Matrix](https://towardsdatascience.com/real-time-recommendation-system-rolling-feature-matrix-f5ca701439df)
    * [LSTM for real-time recommendation systems](https://bond-kirill-alexandrovich.medium.com/lstm-for-real-time-recommendation-systems-f5191d564be5)
