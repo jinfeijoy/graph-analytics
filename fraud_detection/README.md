@@ -112,7 +112,7 @@
 
 
 ## Reference:
-
+* [Graph-based Fraud Detection Papers and Resources](https://github.com/safe-graph/graph-fraud-detection-papers)
 * https://medium.com/@mygreatlearning/graph-machine-learning-for-credit-card-fraud-analysis-f63baf3211e5
 * https://towardsdatascience.com/fraud-detection-with-graph-analytics-2678e817b69e
 * https://isb-institute-of-data-science.medium.com/knowledge-graph-for-financial-services-c9cb7c3fe2b9
