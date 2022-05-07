@@ -44,6 +44,7 @@
 * real time recommendation system: 22May9 - 22May14
 
 ## Reference:
+* **[Graph-based Fraud Detection Papers and Resources](https://github.com/safe-graph/graph-fraud-detection-papers)**
 * [Top Trends of Graph Machine Learning in 2020](https://towardsdatascience.com/top-trends-of-graph-machine-learning-in-2020-1194175351a3)
 * [Graph ML in 2022: Where Are We Now?](https://towardsdatascience.com/graph-ml-in-2022-where-are-we-now-f7f8242599e0) 
 * [Graph Embedding](https://dmccreary.medium.com/understanding-graph-embeddings-79342921a97f) 
