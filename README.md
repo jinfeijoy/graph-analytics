@@ -10,7 +10,7 @@
   * [How to Evolve a Knowledge Graph](https://web.stanford.edu/class/cs520/2020/notes/How_To_Evolve_A_Knowledge_Graph.html)
   * [What are some High Value Use Cases of Knowledge Graphs](https://web.stanford.edu/class/cs520/2020/notes/What_Are_Some_High_Value_Use_Cases_Of_Knowledge_Graphs.html)
   * [How do Knowledge Graphs Relate to AI?](https://web.stanford.edu/class/cs520/2020/notes/How_do_Knowledge_Graphs_Relate_To_AI.html)
-* Data Structure/Database -- tableau dataset -> graph dataset/Graph Database: 22Feb13 - 22Feb19
+* Data Structure/Database -- [tableau dataset -> graph dataset/Graph Database](https://www.youtube.com/watch?v=AQU3akndun4&list=PLV8yxwGOxvvoNkzPfCx2i8an--Tkt7O8Z&index=24): 22Feb13 - 22Feb19
   * [Coursera Course](https://www.coursera.org/learn/big-data-graph-analytics/home/welcome): 22Feb13 - 22Feb17
   * Find Task/Database Exploration: Feb18 - Feb19
 * [Traditional Graph Analyasis](https://www.analyticsvidhya.com/blog/2018/04/introduction-to-graph-theory-network-analysis-python-codes/): 22Feb21 - 22Apr12
