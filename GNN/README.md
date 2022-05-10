@@ -40,7 +40,8 @@
 * Python Packages
   ![image](https://user-images.githubusercontent.com/16402963/167731048-f52d8c6c-9aec-4fb8-97e8-b090f891b813.png)
 * Model Explain
-  ![image](https://user-images.githubusercontent.com/16402963/167732936-1ff0816e-fcef-4894-acbb-7401d9d802cf.png)
+  * ![image](https://user-images.githubusercontent.com/16402963/167732936-1ff0816e-fcef-4894-acbb-7401d9d802cf.png)
+  * [DIG: Dive into Graphs](https://diveintographs.readthedocs.io/en/latest/)
 
 
 ## Planning:
