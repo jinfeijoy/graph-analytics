@@ -37,6 +37,8 @@
 * **[Graph neural networks: A review of methods and applications](https://arxiv.org/ftp/arxiv/papers/1812/1812.08434.pdf)**
   * The general design pipeline for GNN model:
     ![image](https://user-images.githubusercontent.com/16402963/166852662-f6884552-10ac-4d89-9787-c46055eac3bc.png)
+* Python Packages
+  ![image](https://user-images.githubusercontent.com/16402963/167731048-f52d8c6c-9aec-4fb8-97e8-b090f891b813.png)
 
 
 ## Planning:
