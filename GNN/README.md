@@ -46,6 +46,17 @@
 
 ## Planning:
 * recommendation system with graph database: 22Apr27 - 22May8
+  * Bipartite Graph 
+    * Link Prediction: 
+      * ![image](https://user-images.githubusercontent.com/16402963/168924052-3f368e2d-7bbc-40ea-b91d-afe9569b4977.png)
+    * Sample neighborhood / Aggregate feature information from neighbors / predict graph context and label using aggregated information
+      * ![image](https://user-images.githubusercontent.com/16402963/168924422-fe142f78-fe87-418b-8aff-23aff1cef191.png)
+  * Social Recomendation 
+    * ![image](https://user-images.githubusercontent.com/16402963/168924535-b1cb049a-4f54-4b24-92fc-94d2f59df2f6.png)
+  * Knowledge Graph Based Recommendation (Dynamic Graph)
+    * ![image](https://user-images.githubusercontent.com/16402963/168924608-d9271639-2eaf-4c39-90cc-10cfa9c3146a.png)
+    * ![image](https://user-images.githubusercontent.com/16402963/168924647-031734a2-cde7-41f1-89ca-f31e68db68d5.png)
+   
 * real time recommendation system: 22May9 - 22May14
 
 ## Reference:
