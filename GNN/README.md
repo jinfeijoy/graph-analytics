@@ -58,6 +58,7 @@
     * ![image](https://user-images.githubusercontent.com/16402963/168924647-031734a2-cde7-41f1-89ca-f31e68db68d5.png)
    
 * real time recommendation system: 22May9 - 22May14
+  * [Real-time Machine Learning For Recommendations](https://eugeneyan.com/writing/real-time-recommendations/) 
 
 ## Reference:
 * **[Graph-based Fraud Detection Papers and Resources](https://github.com/safe-graph/graph-fraud-detection-papers)**
