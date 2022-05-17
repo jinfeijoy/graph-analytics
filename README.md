@@ -23,7 +23,7 @@
     * Neo4j
     * Visualization 
 * [Graph Machine Learning](https://github.com/jinfeijoy/graph-analytics/tree/main/GNN): 22Apr13 - 22May27
-   * recommendation system with graph database: 22May14 - 22May20
+   * recommendation system with graph database: 22May17 - 22May20
    * real time recommendation system: 22May21 - 22May27
 
 ### Cypher
