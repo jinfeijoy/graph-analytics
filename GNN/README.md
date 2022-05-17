@@ -61,9 +61,9 @@
   * [Real-time Machine Learning For Recommendations](https://eugeneyan.com/writing/real-time-recommendations/) 
 
 ## Planning
-* Link Prediction: 22Apr27 - 22May8
-* Social Recommendation: 
-* Real Time Recommendation: 22May9 - 22May14
+* Link Prediction: 22May17 - 22May20
+* Social Recommendation: 22May21 - 22May27
+* Real Time Recommendation: 
 
 ## Reference:
 * **[Graph-based Fraud Detection Papers and Resources](https://github.com/safe-graph/graph-fraud-detection-papers)**
