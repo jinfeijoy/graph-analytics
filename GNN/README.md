@@ -61,8 +61,8 @@
   * [Real-time Machine Learning For Recommendations](https://eugeneyan.com/writing/real-time-recommendations/) 
 
 ## Planning
-* [Link Prediction](https://medium.com/@benalex/implement-your-own-music-recommender-with-graph-neural-networks-lightgcn-f59e3bf5f8f5): 22May17 - 22May20
-* Social Recommendation: 22May21 - 22May27
+* [Link Prediction](https://medium.com/@benalex/implement-your-own-music-recommender-with-graph-neural-networks-lightgcn-f59e3bf5f8f5): 22May17 - 22May22
+* Social Recommendation: 22May23 - 22May27
 * Real Time Recommendation: 
 
 ## Reference:
