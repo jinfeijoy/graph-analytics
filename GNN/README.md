@@ -62,6 +62,7 @@
 
 ## Planning
 * Link Prediction: 22May17 - 22May20
+  * [dataset](https://snap.stanford.edu/data/egonets-Facebook.html), [more dataset](https://cseweb.ucsd.edu/~jmcauley/datasets.html) 
 * Social Recommendation: 22May21 - 22May27
 * Real Time Recommendation: 
 
