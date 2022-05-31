@@ -62,6 +62,12 @@
 
 ## Planning
 * [Link Prediction](https://medium.com/@benalex/implement-your-own-music-recommender-with-graph-neural-networks-lightgcn-f59e3bf5f8f5): 22May17 - 22Jun1
+  * Framework
+    ![image](https://miro.medium.com/max/1400/1*J3mC-MJ7iWY0uGLIhDleDA.gif)
+  * Graph Data Processing:
+      * sampling: can use K-score to select sub-graphs: The K-core of a graph G is the largest possible connected subgraph of G, in which every node has a degree of at least K. This will give us the largest subgraph in which each playlist contains at least K songs, and each song is in at least K playlists. Package SNAP can do it.
+      * training/validation splitting: package PyG can do it(torch_geometric.transforms import RandomLinkSplit)
+        ![image](https://miro.medium.com/max/1400/0*lm5ViYCCOUyVFATz)
 * Social Recommendation: 22Jun2 - 22Jun4
 * Real Time Recommendation: 
 
