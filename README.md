@@ -22,9 +22,9 @@
     * Model: data discovery, anomaly detection, rule engines
     * Neo4j
     * Visualization 
-* [Graph Machine Learning](https://github.com/jinfeijoy/graph-analytics/tree/main/GNN): 22Apr13 - 22May27
-   * recommendation system with graph database: 22May17 - 22May27
-   * real time recommendation system: 22May28 - 22Jun4
+* [Graph Machine Learning](https://github.com/jinfeijoy/graph-analytics/tree/main/GNN): 22Apr13 - 22Jun5
+   * recommendation system with graph database: 22May17 - 22Jun1
+   * real time recommendation system: 22Jun2 - 22Jun5
 
 ### Cypher
 * [Neo4j Notes](https://github.com/jinfeijoy/graph-analytics/blob/main/fraud_detection/neo4j_cypher_code.md)
