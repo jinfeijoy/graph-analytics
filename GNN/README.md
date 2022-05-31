@@ -64,6 +64,9 @@
 * [Link Prediction](https://medium.com/@benalex/implement-your-own-music-recommender-with-graph-neural-networks-lightgcn-f59e3bf5f8f5): 22May17 - 22Jun1
   * Framework
     ![image](https://miro.medium.com/max/1400/1*J3mC-MJ7iWY0uGLIhDleDA.gif)
+      * Message: For a given central node, each neighbor passes its current embedding (which can first be processed by a message function) to the central node.
+      * Aggregation: The messages from neighbors are aggregated to produce a single embedding, e.g., by summing, averaging, or taking the maximum.
+      * Update: The update step takes the embedding of node i at the previous layer and combines it with the neighborhood aggregation at the current layer, to get the updated embedding for node i at the current layer.
   * Graph Data Processing:
       * sampling: can use K-score to select sub-graphs: The K-core of a graph G is the largest possible connected subgraph of G, in which every node has a degree of at least K. This will give us the largest subgraph in which each playlist contains at least K songs, and each song is in at least K playlists. Package SNAP can do it.
       * training/validation splitting: package PyG can do it(torch_geometric.transforms import RandomLinkSplit)
