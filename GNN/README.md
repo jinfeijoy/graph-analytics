@@ -72,6 +72,7 @@
       * training/validation splitting: package PyG can do it(torch_geometric.transforms import RandomLinkSplit)
         ![image](https://miro.medium.com/max/1400/0*lm5ViYCCOUyVFATz)
 * Social Recommendation: 22Jun2 - 22Jun4
+   * [Graph Neural Networks for Social Recommendation](https://arxiv.org/pdf/1902.07243.pdf) 
 * Real Time Recommendation: 
 
 ## Reference:
