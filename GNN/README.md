@@ -71,9 +71,10 @@
       * sampling: can use K-score to select sub-graphs: The K-core of a graph G is the largest possible connected subgraph of G, in which every node has a degree of at least K. This will give us the largest subgraph in which each playlist contains at least K songs, and each song is in at least K playlists. Package SNAP can do it.
       * training/validation splitting: package PyG can do it(torch_geometric.transforms import RandomLinkSplit)
         ![image](https://miro.medium.com/max/1400/0*lm5ViYCCOUyVFATz)
-* Social Recommendation: 22Jun2 - 22Jun4
+* Social Recommendation: 22Jun2 - 22Jun9
    * [Graph Neural Networks for Social Recommendation](https://arxiv.org/pdf/1902.07243.pdf) 
 * Real Time Recommendation: 
+  * [Real-time Machine Learning For Recommendations](https://eugeneyan.com/writing/real-time-recommendations/) 
 
 ## Reference:
 * **[Graph-based Fraud Detection Papers and Resources](https://github.com/safe-graph/graph-fraud-detection-papers)**
