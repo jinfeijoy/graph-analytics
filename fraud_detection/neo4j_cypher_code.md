@@ -3,7 +3,7 @@
 ## Load Data (csv file)
 * the line can be found [here](https://neo4j.com/docs/cypher-manual/current/clauses/load-csv/), and medium size csv file from [here](https://neo4j.com/developer/guide-import-csv/#_load_csv_for_medium_sized_datasets)
 * [Importing csv file in neo4j](https://towardsdatascience.com/importing-csv-files-in-neo4j-f3553f1a76cf)
-* save data to file location, for example here is "C:\Users\luoyan011\.Neo4jDesktop\relate-data\dbmss\dbms-d9142c37-be6a-45de-b65e-5e1dcc81ad69"
+* save data to file location, for example here is "C:\Users\luoyan011\.Neo4jDesktop\relate-data\dbmss\dbms-d9142c37-be6a-45de-b65e-5e1dcc81ad69\import"
 * load file and print: 
   ```buildoutcfg
   LOAD CSV WITH HEADERS FROM "file:///top_3_community.csv" AS line WITH line RETURN line LIMIT 5
