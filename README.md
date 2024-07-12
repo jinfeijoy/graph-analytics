@@ -18,6 +18,7 @@
     * [Community Detection: Fraud Detection](https://github.com/jinfeijoy/graph-analytics/tree/main/fraud_detection) (Feb21 - Mar19)
     * [Path Analytics: New York City Taxi Trip Duration](https://github.com/jinfeijoy/graph-analytics/tree/main/newyork_text_duration) (Mar21 - Mar28)
     * [Centrality Analytics: Social Network Analytics](https://github.com/jinfeijoy/graph-analytics/tree/main/social_network_analysis) (Mar29 - Apr12)
+    * [link prediction (multi-graph)](https://github.com/jinfeijoy/supply_chain/tree/main/link_prediction_in_supply_chain_network)
   * Code Implementation 
     * Model: data discovery, anomaly detection, rule engines
     * Neo4j
