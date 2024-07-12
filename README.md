@@ -40,6 +40,10 @@
 * [540 Images Of Popular Graph Theory Graphs](https://www.kaggle.com/thomaskonstantin/390-images-of-popular-graph-theory-graphs)
 * [Airline Database](https://www.kaggle.com/jonathanbouchet/airlines-route-tracker/data)
 
+### Graph Visualization
+* [The New Best Python Package for Visualising Network Graphs](https://towardsdatascience.com/the-new-best-python-package-for-visualising-network-graphs-e220d59e054e): static visuzliation
+* [The Two Best Tools for Plotting Interactive Network Graphs](https://medium.com/@bl3e967/the-two-best-tools-for-plotting-interactive-network-graphs-8d352aa894d4): interactive visualization
+
 ### Reference
 * [Graph Analytics: Types, Tools, and Top 10 Use cases](https://research.aimultiple.com/graph-analytics/)
 * [Enterprise Knowledge Graph Trends for 2021](https://dmccreary.medium.com/enterprise-knowledge-graph-trends-for-2021-201cbd7ad532)
